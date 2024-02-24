@@ -33,15 +33,15 @@ const PropertySchema = new Schema(
       },
     },
     beds: {
-      type: number,
+      type: Number,
       required: true,
     },
     baths: {
-      type: number,
+      type: Number,
       required: true,
     },
     square_feet: {
-      type: number,
+      type: Number,
       required: true,
     },
     amenities: [
@@ -51,13 +51,13 @@ const PropertySchema = new Schema(
     ],
     rates: {
       nightly: {
-        type: number,
+        type: Number,
       },
       weekly: {
-        type: number,
+        type: Number,
       },
       monthly: {
-        type: number,
+        type: Number,
       },
     },
     seller_info: {
